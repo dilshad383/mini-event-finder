@@ -1,17 +1,13 @@
 {
   "name": "mini-event-finder",
   "version": "1.0.0",
-  "author": "",
-  "license": "ISC",
   "scripts": {
     "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
     "start": "node backend/src/index.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
-  },
-  "keywords": []
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3"
+  }
 }
